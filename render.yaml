@@ -3,5 +3,5 @@ services:
     name: arterug-video
     env: node
     plan: starter
-    buildCommand: apt-get install -y ffmpeg && npm install
+    buildCommand: npm install
     startCommand: node server.js
